@@ -1,0 +1,846 @@
+Initializing semantic cluster-based summarizer...
+Language Model parameters : 22713216
+Using cuda
+
+####  EPISODE 0  ####
+
+FACTUAL
+0 *The key is at (3, 5).
+2 The player is at (3, 6).
+7 The door is closed.
+12 The player is facing right.
+15 The goal is at (6, 6).
+17 The player moves forward.
+18 The door is open.
+19 The player is facing down.
+19 The key has been picked up.
+22 The player is at (6, 5).
+23 *The player reached the goal.
+23 The door is at (5, 2).
+
+Silhouette Coefficient : 0.879
+Global Cosine Similarity : 0.973
+
+CFX 0
+1 *The key is at (3, 5).
+7 The door is closed.
+7 *The player drops the key.
+8 The player is at (3, 6).
+11 The player moves forward.
+13 The player is facing right.
+16 The door is at (5, 2).
+18 The goal is at (6, 6).
+22 The player is at (6, 5).
+23 The door is open.
+23 The key has been picked up.
+
+Silhouette Coefficient : 0.911
+Global Cosine Similarity : 0.967
+ROUGE-1-F : 92.56
+ROUGE-2-F : 87.39
+
+CFX 1
+5 The player is at (3, 6).
+5 *The key is at (3, 5).
+8 The player moves forward.
+9 The key has been picked up.
+11 The door is closed.
+15 The player is facing right.
+18 The door is open.
+22 The goal is at (6, 6).
+22 The player is at (6, 5).
+23 *The player reached the goal.
+23 The door is at (5, 2).
+
+Silhouette Coefficient : 0.963
+Global Cosine Similarity : 0.969
+ROUGE-1-F : 95.87
+ROUGE-2-F : 95.80
+
+CFX 2
+0 The player is facing right.
+1 The player is at (3, 6).
+5 *The key is at (3, 5).
+10 The player moves forward.
+11 The door is closed.
+14 The key has been picked up.
+16 The goal is at (6, 6).
+20 The door is open.
+22 The player is at (6, 5).
+23 The door is at (5, 2).
+23 The player is facing down.
+
+Silhouette Coefficient : 0.870
+Global Cosine Similarity : 0.972
+ROUGE-1-F : 95.87
+ROUGE-2-F : 94.12
+
+CFX 3
+0 *The key is at (3, 5).
+3 The player is at (3, 6).
+8 The door is closed.
+8 The goal is at (6, 6).
+13 The player is facing right.
+15 The player moves forward.
+15 The door is open.
+17 The key has been picked up.
+22 The player is at (6, 5).
+23 The door is at (5, 2).
+
+Silhouette Coefficient : 0.959
+Global Cosine Similarity : 0.972
+ROUGE-1-F : 91.38
+ROUGE-2-F : 91.23
+
+####  EPISODE 1  ####
+
+FACTUAL
+1 The goal is at (6, 6).
+4 The door is closed.
+6 The key has been picked up.
+13 The player moves forward.
+15 *The player drops the key.
+15 The player is facing right.
+18 The key is at (6, 4).
+21 The door is open.
+22 The door is at (2, 4).
+22 *The player is at (6, 5).
+22 The player turns left.
+23 *The player reached the goal.
+
+Silhouette Coefficient : 0.895
+Global Cosine Similarity : 0.955
+
+CFX 0
+1 *The player is at (1, 5).
+2 The door is closed.
+2 The door is at (2, 4).
+5 The key has been picked up.
+10 The player is facing right.
+14 The player moves forward.
+14 The door is open.
+15 *The player drops the key.
+18 The player is facing down.
+19 The player is at (6, 5).
+22 *The player reached the goal.
+23 The goal is at (6, 6).
+
+Silhouette Coefficient : 0.891
+Global Cosine Similarity : 0.967
+ROUGE-1-F : 91.06
+ROUGE-2-F : 84.30
+
+CFX 1
+0 The door is closed.
+3 The player is facing up.
+8 The door is at (2, 4).
+9 The player is at (1, 4).
+14 The goal is at (6, 6).
+17 The player moves forward.
+18 The key has been picked up.
+19 *The player is at (6, 5).
+20 *The player reached the goal.
+22 The door is open.
+23 *The player drops the key.
+
+Silhouette Coefficient : 0.848
+Global Cosine Similarity : 0.950
+ROUGE-1-F : 93.22
+ROUGE-2-F : 86.21
+
+CFX 2
+3 The player moves forward.
+5 The key has been picked up.
+7 The door is closed.
+9 The player is at (1, 4).
+11 *The player closes the door.
+13 The player is facing right.
+15 The door is open.
+17 *The player drops the key.
+19 The key is at (6, 4).
+21 The goal is at (6, 6).
+21 The door is at (2, 4).
+22 *The player is at (6, 5).
+
+Silhouette Coefficient : 0.809
+Global Cosine Similarity : 0.944
+ROUGE-1-F : 91.94
+ROUGE-2-F : 86.89
+
+CFX 3
+7 The door is closed.
+8 The goal is at (6, 6).
+9 The key has been picked up.
+11 The player is facing right.
+15 *The player drops the key.
+19 The door is at (2, 4).
+19 The door is open.
+19 The player moves forward.
+19 *The player is at (6, 5).
+20 The key is at (6, 4).
+23 *The player reached the goal.
+
+Silhouette Coefficient : 0.834
+Global Cosine Similarity : 0.949
+ROUGE-1-F : 96.61
+ROUGE-2-F : 96.55
+
+####  EPISODE 2  ####
+
+FACTUAL
+0 The key is at (2, 1).
+4 The player moves forward.
+5 The player is facing right.
+8 *The player is at (2, 1).
+11 The door is closed.
+16 The door is open.
+17 The door is at (3, 5).
+18 The goal is at (6, 6).
+21 The key has been picked up.
+22 *The player reached the goal.
+
+Silhouette Coefficient : 0.911
+Global Cosine Similarity : 0.966
+
+CFX 0
+0 The key is at (2, 1).
+5 The door is closed.
+8 The door is at (3, 5).
+10 *The player is at (2, 2).
+15 *The player opens the door.
+17 The player moves forward.
+19 The key has been picked up.
+19 The player is facing right.
+20 The goal is at (6, 6).
+
+Silhouette Coefficient : 0.953
+Global Cosine Similarity : 0.958
+ROUGE-1-F : 92.00
+ROUGE-2-F : 83.67
+
+CFX 1
+2 The key is at (2, 1).
+2 The door is closed.
+3 *The player is at (1, 2).
+7 The key has been picked up.
+9 The goal is at (6, 6).
+14 The door is open.
+17 The player is facing right.
+18 The door is at (3, 5).
+19 The player moves forward.
+21 *The player is at (6, 5).
+
+Silhouette Coefficient : 0.878
+Global Cosine Similarity : 0.948
+ROUGE-1-F : 89.52
+ROUGE-2-F : 87.38
+
+CFX 2
+4 The key is at (2, 1).
+5 The door is closed.
+8 *The player is at (2, 1).
+11 The player is facing down.
+13 The goal is at (6, 6).
+13 The player is facing right.
+15 The player is at (2, 5).
+17 The player moves forward.
+17 The key has been picked up.
+22 The door is at (3, 5).
+22 The door is open.
+
+Silhouette Coefficient : 0.810
+Global Cosine Similarity : 0.968
+ROUGE-1-F : 89.09
+ROUGE-2-F : 87.04
+
+CFX 3
+3 *The player is at (1, 2).
+4 The key is at (2, 1).
+9 The player moves forward.
+11 The door is closed.
+12 The goal is at (6, 6).
+13 The key has been picked up.
+13 The player is facing right.
+14 The door is at (3, 5).
+20 The door is open.
+
+Silhouette Coefficient : 0.924
+Global Cosine Similarity : 0.970
+ROUGE-1-F : 90.91
+ROUGE-2-F : 88.66
+
+####  EPISODE 3  ####
+
+FACTUAL
+2 *The key is at (2, 3).
+2 The player is at (3, 3).
+8 The player is facing right.
+9 The goal is at (6, 6).
+11 The key has been picked up.
+15 The door is open.
+17 The door is at (4, 3).
+18 *The player reached the goal.
+18 The player moves forward.
+
+Silhouette Coefficient : 0.887
+Global Cosine Similarity : 0.946
+
+CFX 0
+2 *The key is at (2, 3).
+4 The player is facing left.
+6 The player is at (3, 3).
+7 The key has been picked up.
+8 The goal is at (6, 6).
+12 The door is open.
+16 The door is at (4, 3).
+17 The player is facing down.
+
+Silhouette Coefficient : 0.856
+Global Cosine Similarity : 0.954
+ROUGE-1-F : 86.96
+ROUGE-2-F : 84.44
+
+CFX 1
+3 *The key is at (2, 3).
+3 The player is at (3, 3).
+4 The goal is at (6, 6).
+9 The key has been picked up.
+12 The player is facing right.
+13 The player moves forward.
+14 The door is at (4, 3).
+18 The door is open.
+
+Silhouette Coefficient : 0.877
+Global Cosine Similarity : 0.955
+ROUGE-1-F : 94.51
+ROUGE-2-F : 92.13
+
+CFX 2
+3 *The key is at (2, 3).
+4 The player is facing left.
+7 The player is at (3, 3).
+8 The door is open.
+9 The goal is at (6, 6).
+13 The key has been picked up.
+14 The player is facing down.
+15 The door is at (4, 3).
+
+Silhouette Coefficient : 0.871
+Global Cosine Similarity : 0.953
+ROUGE-1-F : 86.96
+ROUGE-2-F : 82.22
+
+CFX 3
+3 The player is facing left.
+3 *The key is at (2, 3).
+3 The player is at (3, 3).
+9 The key has been picked up.
+11 The player is facing down.
+14 The door is open.
+17 The goal is at (6, 6).
+18 The door is at (4, 3).
+
+Silhouette Coefficient : 0.879
+Global Cosine Similarity : 0.953
+ROUGE-1-F : 86.96
+ROUGE-2-F : 82.22
+
+####  EPISODE 4  ####
+
+FACTUAL
+1 *The key is at (3, 3).
+2 The player moves forward.
+3 The player is at (2, 3).
+4 The door is closed.
+6 The key has been picked up.
+14 The player is facing right.
+18 The goal is at (6, 6).
+20 The door is open.
+21 The door is at (4, 1).
+22 The player is at (6, 5).
+23 *The player reached the goal.
+
+Silhouette Coefficient : 0.969
+Global Cosine Similarity : 0.972
+
+CFX 0
+2 The player moves forward.
+4 The door is closed.
+11 The player is at (3, 1).
+12 The door is at (4, 1).
+15 The player is facing right.
+18 The goal is at (6, 6).
+21 The player is facing down.
+22 The player is at (6, 5).
+22 The door is open.
+22 The key has been picked up.
+
+Silhouette Coefficient : 0.914
+Global Cosine Similarity : 0.976
+ROUGE-1-F : 89.09
+ROUGE-2-F : 83.33
+
+CFX 1
+1 The player is facing up.
+4 The door is closed.
+8 The door is at (4, 1).
+9 The player is at (3, 1).
+12 The player is facing right.
+15 The key has been picked up.
+19 The player moves forward.
+21 The player is at (6, 5).
+22 The goal is at (6, 6).
+23 The door is open.
+
+Silhouette Coefficient : 0.913
+Global Cosine Similarity : 0.978
+ROUGE-1-F : 89.09
+ROUGE-2-F : 83.33
+
+CFX 2
+3 *The key is at (3, 3).
+4 The goal is at (6, 6).
+4 The player is at (2, 3).
+5 The player is facing right.
+8 The door is closed.
+19 The player moves forward.
+20 The player is at (6, 5).
+20 The key has been picked up.
+20 The door is at (4, 1).
+21 The door is open.
+
+Silhouette Coefficient : 0.969
+Global Cosine Similarity : 0.974
+ROUGE-1-F : 95.50
+ROUGE-2-F : 95.41
+
+CFX 3
+1 *The key is at (3, 3).
+2 The player is at (2, 3).
+6 The door is closed.
+9 The door is at (4, 1).
+12 The door is open.
+12 The player is facing right.
+15 The goal is at (6, 6).
+18 The player is facing down.
+19 The player moves forward.
+20 The player is at (6, 5).
+22 The key has been picked up.
+
+Silhouette Coefficient : 0.920
+Global Cosine Similarity : 0.975
+ROUGE-1-F : 94.83
+ROUGE-2-F : 92.98
+
+####  EPISODE 5  ####
+
+FACTUAL
+0 The key is at (1, 4).
+2 The door is closed.
+5 The player is at (2, 4).
+10 The player is facing right.
+12 The player moves forward.
+17 *The player is at (6, 4).
+18 The goal is at (6, 6).
+20 The door is at (3, 2).
+20 The door is open.
+22 *The player reached the goal.
+22 The key has been picked up.
+
+Silhouette Coefficient : 0.938
+Global Cosine Similarity : 0.968
+
+CFX 0
+0 The key is at (1, 4).
+5 The door is closed.
+5 The player is at (2, 4).
+11 The key has been picked up.
+12 The player is facing right.
+12 The player moves forward.
+16 The goal is at (6, 6).
+18 The door is open.
+18 *The player is at (6, 4).
+19 The door is at (3, 2).
+
+Silhouette Coefficient : 0.946
+Global Cosine Similarity : 0.969
+ROUGE-1-F : 95.50
+ROUGE-2-F : 93.58
+
+CFX 1
+2 The key is at (1, 4).
+4 The door is closed.
+5 The player is at (2, 4).
+11 The goal is at (6, 6).
+12 The goal is at (6, 6).
+14 The player is facing right.
+15 The player moves forward.
+15 The door is open.
+18 *The player is at (6, 4).
+19 The key has been picked up.
+22 The door is at (3, 2).
+
+Silhouette Coefficient : 0.848
+Global Cosine Similarity : 0.973
+ROUGE-1-F : 94.02
+ROUGE-2-F : 88.70
+
+CFX 2
+0 The key is at (1, 4).
+4 The player is at (2, 4).
+7 The door is closed.
+9 The player is facing right.
+11 The goal is at (6, 6).
+13 The door is at (3, 2).
+13 The key has been picked up.
+18 The player moves forward.
+20 The door is open.
+22 *The player is at (6, 5).
+
+Silhouette Coefficient : 0.960
+Global Cosine Similarity : 0.970
+ROUGE-1-F : 93.69
+ROUGE-2-F : 91.74
+
+CFX 3
+2 The key is at (1, 4).
+4 The player is at (2, 4).
+9 The door is closed.
+10 The key has been picked up.
+14 The player is facing right.
+17 The player moves forward.
+19 The door is open.
+19 The door is at (3, 2).
+20 *The player is at (6, 5).
+22 The goal is at (6, 6).
+
+Silhouette Coefficient : 0.918
+Global Cosine Similarity : 0.970
+ROUGE-1-F : 93.69
+ROUGE-2-F : 89.91
+
+####  EPISODE 6  ####
+
+FACTUAL
+3 *The key is at (1, 1).
+10 The player moves forward.
+11 The player is facing right.
+12 The key has been picked up.
+14 The door is open.
+15 The door is at (2, 2).
+17 The player is at (6, 5).
+18 The goal is at (6, 6).
+19 *The player reached the goal.
+
+Silhouette Coefficient : 0.950
+Global Cosine Similarity : 0.958
+
+CFX 0
+0 *The key is at (1, 1).
+10 The player is facing right.
+11 The door is at (2, 2).
+11 The goal is at (6, 6).
+14 The door is open.
+14 The key has been picked up.
+15 The player moves forward.
+16 The player is at (5, 6).
+
+Silhouette Coefficient : 0.960
+Global Cosine Similarity : 0.961
+ROUGE-1-F : 90.11
+ROUGE-2-F : 89.89
+
+CFX 1
+3 The player is at (1, 2).
+3 *The key is at (1, 1).
+9 The player moves forward.
+10 The player is facing right.
+13 The goal is at (6, 6).
+14 The door is open.
+16 The door is at (2, 2).
+17 The key has been picked up.
+17 The player is at (6, 5).
+19 The player is facing down.
+
+Silhouette Coefficient : 0.872
+Global Cosine Similarity : 0.961
+ROUGE-1-F : 88.24
+ROUGE-2-F : 88.00
+
+CFX 2
+2 *The key is at (1, 1).
+7 The player moves forward.
+8 The player is facing right.
+11 The goal is at (6, 6).
+12 The door is at (2, 2).
+14 The door is open.
+15 The key has been picked up.
+19 The player is at (6, 5).
+
+Silhouette Coefficient : 0.960
+Global Cosine Similarity : 0.961
+ROUGE-1-F : 94.51
+ROUGE-2-F : 94.38
+
+CFX 3
+0 *The key is at (1, 1).
+5 The player is at (1, 2).
+7 The player is facing right.
+8 The door is open.
+12 The door is at (2, 2).
+15 The player moves forward.
+16 The key has been picked up.
+16 The goal is at (6, 6).
+
+Silhouette Coefficient : 0.947
+Global Cosine Similarity : 0.961
+ROUGE-1-F : 90.11
+ROUGE-2-F : 87.64
+
+####  EPISODE 7  ####
+
+FACTUAL
+0 The player is at (1, 4).
+8 The player is facing right.
+9 The door is open.
+12 The key has been picked up.
+12 The player moves forward.
+12 The goal is at (6, 6).
+14 *The player drops the key.
+22 *The player reached the goal.
+22 The door is at (2, 4).
+22 The key is at (6, 4).
+
+Silhouette Coefficient : 0.903
+Global Cosine Similarity : 0.959
+
+CFX 0
+6 The key has been picked up.
+9 The door is open.
+9 The player is at (1, 4).
+11 The player is facing right.
+15 The key is at (6, 4).
+15 The player is facing down.
+19 The player is at (5, 6).
+20 The goal is at (6, 6).
+20 *The player reached the goal.
+21 The player moves forward.
+22 The door is at (2, 4).
+
+Silhouette Coefficient : 0.911
+Global Cosine Similarity : 0.976
+ROUGE-1-F : 89.29
+ROUGE-2-F : 87.27
+
+CFX 1
+3 *The key is at (1, 6).
+7 The player is at (1, 4).
+9 The door is at (2, 4).
+10 The key has been picked up.
+12 The player is facing right.
+13 The player is at (5, 4).
+14 The door is open.
+16 *The player drops the key.
+22 The goal is at (6, 6).
+22 *The player reached the goal.
+22 The player moves forward.
+
+Silhouette Coefficient : 0.918
+Global Cosine Similarity : 0.949
+ROUGE-1-F : 92.86
+ROUGE-2-F : 89.09
+
+CFX 2
+0 The door is closed.
+7 The player is at (1, 4).
+9 The player is facing right.
+10 The goal is at (6, 6).
+11 The key has been picked up.
+14 The player moves forward.
+18 The player is at (6, 5).
+19 *The player reached the goal.
+21 The door is at (2, 4).
+22 The door is open.
+22 *The player has disappeared.
+
+Silhouette Coefficient : 0.933
+Global Cosine Similarity : 0.972
+ROUGE-1-F : 88.07
+ROUGE-2-F : 84.11
+
+CFX 3
+2 The door is closed.
+5 The player is facing right.
+8 The player is at (1, 4).
+11 The key has been picked up.
+13 The goal is at (6, 6).
+14 The player moves forward.
+15 The key is at (6, 4).
+15 *The player drops the key.
+17 The door is open.
+19 The door is at (2, 4).
+20 The player is at (6, 5).
+
+Silhouette Coefficient : 0.931
+Global Cosine Similarity : 0.975
+ROUGE-1-F : 90.09
+ROUGE-2-F : 88.07
+
+####  EPISODE 8  ####
+
+FACTUAL
+1 The door is closed.
+5 The player is at (1, 4).
+11 The player is facing right.
+13 The key has been picked up.
+14 The door is open.
+18 The player is facing down.
+19 The player moves forward.
+21 The player is at (6, 5).
+22 The goal is at (6, 6).
+22 The door is at (5, 2).
+23 *The player reached the goal.
+
+Silhouette Coefficient : 0.904
+Global Cosine Similarity : 0.975
+
+CFX 0
+5 The door is at (5, 2).
+5 The player is at (1, 4).
+11 The goal is at (6, 6).
+12 The player is facing right.
+13 The key has been picked up.
+13 The door is closed.
+18 The door is open.
+19 The player moves forward.
+
+Silhouette Coefficient : 0.930
+Global Cosine Similarity : 0.969
+ROUGE-1-F : 83.67
+ROUGE-2-F : 83.33
+
+CFX 1
+2 The door is closed.
+6 The player is facing right.
+7 The player is at (1, 4).
+9 The door is at (5, 2).
+14 The goal is at (6, 6).
+19 The door is open.
+20 The player moves forward.
+20 The key has been picked up.
+22 The player is at (6, 5).
+
+Silhouette Coefficient : 0.874
+Global Cosine Similarity : 0.972
+ROUGE-1-F : 90.38
+ROUGE-2-F : 90.20
+
+CFX 2
+1 The door is closed.
+7 The player is at (1, 4).
+8 The player is facing up.
+14 The key has been picked up.
+15 The door is open.
+18 The goal is at (6, 6).
+21 The player moves forward.
+23 The door is at (5, 2).
+
+Silhouette Coefficient : 0.967
+Global Cosine Similarity : 0.972
+ROUGE-1-F : 81.63
+ROUGE-2-F : 79.17
+
+CFX 3
+2 The player is facing left.
+5 The player is at (1, 4).
+8 The key has been picked up.
+9 The player moves forward.
+12 The door is closed.
+14 The door is at (5, 2).
+16 The goal is at (6, 6).
+22 The door is open.
+
+Silhouette Coefficient : 0.919
+Global Cosine Similarity : 0.972
+ROUGE-1-F : 81.63
+ROUGE-2-F : 79.17
+
+####  EPISODE 9  ####
+
+FACTUAL
+3 *The key is at (1, 1).
+8 The player is facing right.
+13 The key has been picked up.
+14 The door is open.
+15 The player moves forward.
+15 The door is at (3, 2).
+17 The player is at (6, 5).
+18 The goal is at (6, 6).
+19 *The player reached the goal.
+
+Silhouette Coefficient : 0.960
+Global Cosine Similarity : 0.957
+
+CFX 0
+3 *The key is at (1, 1).
+7 The player is at (1, 2).
+10 The player is facing right.
+12 The player moves forward.
+13 The goal is at (6, 6).
+14 The key has been picked up.
+14 The door is open.
+17 The door is at (3, 2).
+
+Silhouette Coefficient : 0.949
+Global Cosine Similarity : 0.959
+ROUGE-1-F : 90.11
+ROUGE-2-F : 89.89
+
+CFX 1
+1 The key is at (1, 1).
+4 The door is closed.
+5 The door is at (3, 2).
+5 *The player is at (1, 2).
+7 The player is facing right.
+9 The door is open.
+15 The player moves forward.
+16 The key has been picked up.
+18 The goal is at (6, 6).
+19 The player is at (6, 5).
+
+Silhouette Coefficient : 0.875
+Global Cosine Similarity : 0.964
+ROUGE-1-F : 89.11
+ROUGE-2-F : 86.87
+
+CFX 2
+0 *The key is at (1, 1).
+3 The player moves forward.
+7 The key has been picked up.
+7 The player is facing right.
+8 The door is open.
+13 The door is at (3, 2).
+14 The goal is at (6, 6).
+16 The player is at (6, 5).
+
+Silhouette Coefficient : 0.960
+Global Cosine Similarity : 0.960
+ROUGE-1-F : 94.51
+ROUGE-2-F : 94.38
+
+CFX 3
+0 The key is at (1, 1).
+4 *The player is at (1, 2).
+9 The key has been picked up.
+11 The player is facing right.
+14 The player moves forward.
+14 The door is open.
+17 The goal is at (6, 6).
+18 The door is at (3, 2).
+19 The player is at (6, 5).
+
+Silhouette Coefficient : 0.927
+Global Cosine Similarity : 0.959
+ROUGE-1-F : 92.78
+ROUGE-2-F : 90.53
+

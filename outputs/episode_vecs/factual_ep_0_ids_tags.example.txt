@@ -1,0 +1,164 @@
+tagID_0 0: The player is at (2, 6).
+tagID_1 0: The player is facing right.
+tagID_2 0: The goal is at (6, 6).
+tagID_3 0: The key is at (3, 5).
+tagID_4 0: The door is at (5, 2).
+tagID_5 0: The door is closed.
+tagID_6 1: The player is at (3, 6).
+tagID_7 1: The player is facing right.
+tagID_8 1: The player moves forward.
+tagID_9 1: The goal is at (6, 6).
+tagID_10 1: The key is at (3, 5).
+tagID_11 1: The door is at (5, 2).
+tagID_12 1: The door is closed.
+tagID_13 2: The player is at (3, 6).
+tagID_14 2: The player is facing down.
+tagID_15 2: The player turns right.
+tagID_16 2: The goal is at (6, 6).
+tagID_17 2: The key is at (3, 5).
+tagID_18 2: The door is at (5, 2).
+tagID_19 2: The door is closed.
+tagID_20 3: The player is at (3, 6).
+tagID_21 3: The player is facing left.
+tagID_22 3: The player turns right.
+tagID_23 3: The goal is at (6, 6).
+tagID_24 3: The key is at (3, 5).
+tagID_25 3: The door is at (5, 2).
+tagID_26 3: The door is closed.
+tagID_27 4: The player is at (3, 6).
+tagID_28 4: The player is facing up.
+tagID_29 4: The player turns right.
+tagID_30 4: The goal is at (6, 6).
+tagID_31 4: The key is at (3, 5).
+tagID_32 4: The door is at (5, 2).
+tagID_33 4: The door is closed.
+tagID_34 5: The player is at (3, 6).
+tagID_35 5: The player is facing up.
+tagID_36 5: The goal is at (6, 6).
+tagID_37 5: The key is at (3, 5).
+tagID_38 5: The door is at (5, 2).
+tagID_39 5: The door is closed.
+tagID_40 6: The player is at (3, 6).
+tagID_41 6: The player is facing up.
+tagID_42 6: The goal is at (6, 6).
+tagID_43 6: The door is at (5, 2).
+tagID_44 6: The door is closed.
+tagID_45 6: The player picks up the key.
+tagID_46 6: The key has been picked up.
+tagID_47 7: The player is at (3, 5).
+tagID_48 7: The player is facing up.
+tagID_49 7: The player moves forward.
+tagID_50 7: The goal is at (6, 6).
+tagID_51 7: The door is at (5, 2).
+tagID_52 7: The door is closed.
+tagID_53 7: The key has been picked up.
+tagID_54 8: The player is at (3, 4).
+tagID_55 8: The player is facing up.
+tagID_56 8: The player moves forward.
+tagID_57 8: The goal is at (6, 6).
+tagID_58 8: The door is at (5, 2).
+tagID_59 8: The door is closed.
+tagID_60 8: The key has been picked up.
+tagID_61 9: The player is at (3, 3).
+tagID_62 9: The player is facing up.
+tagID_63 9: The player moves forward.
+tagID_64 9: The goal is at (6, 6).
+tagID_65 9: The door is at (5, 2).
+tagID_66 9: The door is closed.
+tagID_67 9: The key has been picked up.
+tagID_68 10: The player is at (3, 2).
+tagID_69 10: The player is facing up.
+tagID_70 10: The player moves forward.
+tagID_71 10: The goal is at (6, 6).
+tagID_72 10: The door is at (5, 2).
+tagID_73 10: The door is closed.
+tagID_74 10: The key has been picked up.
+tagID_75 11: The player is at (3, 2).
+tagID_76 11: The player is facing right.
+tagID_77 11: The player turns right.
+tagID_78 11: The goal is at (6, 6).
+tagID_79 11: The door is at (5, 2).
+tagID_80 11: The door is closed.
+tagID_81 11: The key has been picked up.
+tagID_82 12: The player is at (4, 2).
+tagID_83 12: The player is facing right.
+tagID_84 12: The player moves forward.
+tagID_85 12: The goal is at (6, 6).
+tagID_86 12: The door is at (5, 2).
+tagID_87 12: The door is closed.
+tagID_88 12: The key has been picked up.
+tagID_89 13: The player is at (4, 2).
+tagID_90 13: The player is facing right.
+tagID_91 13: The goal is at (6, 6).
+tagID_92 13: The door is at (5, 2).
+tagID_93 13: The door is open.
+tagID_94 13: The player opens the door.
+tagID_95 13: The key has been picked up.
+tagID_96 14: The player is at (5, 2).
+tagID_97 14: The player is facing right.
+tagID_98 14: The player moves forward.
+tagID_99 14: The goal is at (6, 6).
+tagID_100 14: The door is at (5, 2).
+tagID_101 14: The door is open.
+tagID_102 14: The key has been picked up.
+tagID_103 15: The player is at (6, 2).
+tagID_104 15: The player is facing right.
+tagID_105 15: The player moves forward.
+tagID_106 15: The goal is at (6, 6).
+tagID_107 15: The door is at (5, 2).
+tagID_108 15: The door is open.
+tagID_109 15: The key has been picked up.
+tagID_110 16: The player is at (6, 2).
+tagID_111 16: The player is facing down.
+tagID_112 16: The player turns right.
+tagID_113 16: The goal is at (6, 6).
+tagID_114 16: The door is at (5, 2).
+tagID_115 16: The door is open.
+tagID_116 16: The key has been picked up.
+tagID_117 17: The player is at (6, 3).
+tagID_118 17: The player is facing down.
+tagID_119 17: The player moves forward.
+tagID_120 17: The goal is at (6, 6).
+tagID_121 17: The door is at (5, 2).
+tagID_122 17: The door is open.
+tagID_123 17: The key has been picked up.
+tagID_124 18: The player is at (6, 4).
+tagID_125 18: The player is facing down.
+tagID_126 18: The player moves forward.
+tagID_127 18: The goal is at (6, 6).
+tagID_128 18: The door is at (5, 2).
+tagID_129 18: The door is open.
+tagID_130 18: The key has been picked up.
+tagID_131 19: The player is at (6, 5).
+tagID_132 19: The player is facing down.
+tagID_133 19: The player moves forward.
+tagID_134 19: The goal is at (6, 6).
+tagID_135 19: The door is at (5, 2).
+tagID_136 19: The door is open.
+tagID_137 19: The key has been picked up.
+tagID_138 20: The player is at (6, 5).
+tagID_139 20: The player is facing down.
+tagID_140 20: The goal is at (6, 6).
+tagID_141 20: The door is at (5, 2).
+tagID_142 20: The door is open.
+tagID_143 20: The key has been picked up.
+tagID_144 21: The player is at (6, 5).
+tagID_145 21: The player is facing down.
+tagID_146 21: The goal is at (6, 6).
+tagID_147 21: The door is at (5, 2).
+tagID_148 21: The door is open.
+tagID_149 21: The key has been picked up.
+tagID_150 22: The player is at (6, 5).
+tagID_151 22: The player is facing down.
+tagID_152 22: The goal is at (6, 6).
+tagID_153 22: The door is at (5, 2).
+tagID_154 22: The door is open.
+tagID_155 22: The key has been picked up.
+tagID_156 23: The player is at (6, 6).
+tagID_157 23: The player is facing down.
+tagID_158 23: The player moves forward.
+tagID_159 23: The goal is at (6, 6).
+tagID_160 23: The player reached the goal.
+tagID_161 23: The door is at (5, 2).
+tagID_162 23: The door is open.
+tagID_163 23: The key has been picked up.
